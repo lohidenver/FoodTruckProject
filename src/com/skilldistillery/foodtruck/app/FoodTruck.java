@@ -2,23 +2,32 @@ package com.skilldistillery.foodtruck.app;
 
 class FoodTruck {
 
-    public static int id = 0;
+    private static int id = 0;
     private String name;
     private String foodType;
     private int rating;
-
-    public FoodTruck() {
-        id++;
-    }
+    private int truckID = 0;
 
     public FoodTruck(String name, String foodType, int rating) {
-        this.id = id++;
+        this.truckID = ++id;
         setName(name);
         setFoodType(foodType);
         setRating(rating);
     }
 
-    public static int getId() {
+    public int getTruckID() {
+		return truckID;
+	}
+
+	public void setTruckID(int truckID) {
+		this.truckID = truckID;
+	}
+
+	public static void setId(int id) {
+		FoodTruck.id = id;
+	}
+
+	public static int getId() {
         return id;
     }
 
@@ -47,11 +56,8 @@ class FoodTruck {
     }
 
     @Override
-    public String toString() {
-        return "FoodTruck " +
-                "name='" + name + '\'' +
-                ", foodType='" + foodType + '\'' +
-                ", rating=" + rating 
-             ;
-    }
+	public String toString() {
+		return "FoodTruck [name=" + name + ", foodType=" + foodType + ", rating=" + rating + ", truckID=" + truckID
+				+ "]";
+	}
 }
