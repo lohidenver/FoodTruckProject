@@ -48,10 +48,10 @@ class FoodTruck {
 
     @Override
     public String toString() {
-        return "FoodTruck{" +
+        return "FoodTruck " +
                 "name='" + name + '\'' +
                 ", foodType='" + foodType + '\'' +
-                ", rating=" + rating +
-                '}';
+                ", rating=" + rating 
+             ;
     }
 }
