@@ -37,6 +37,8 @@ public class FoodTruckApp {
 				scanner.nextLine();
 			} else if (kb.equals("2")) {
 				break;
+			} else if (kb.equalsIgnoreCase("quit")) {
+				break;
 			} else {
 				continue;
 			}
