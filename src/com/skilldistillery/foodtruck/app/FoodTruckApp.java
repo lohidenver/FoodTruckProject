@@ -19,14 +19,14 @@ public class FoodTruckApp {
 
             if(kb.equals("1")) {
 
-                System.out.println("name = ");
+                System.out.println("Name = ");
                 String name = scanner.nextLine();
                 System.out.println("foodType = ");
                 String foodType = scanner.nextLine();
 
                 int rating;
                 do {
-                    System.out.println("rating = ");
+                    System.out.println("rating (1-5) = ");
                     rating = scanner.nextInt();
                 } while (rating < 1 || rating > 5);
 
