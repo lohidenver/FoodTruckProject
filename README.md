@@ -6,7 +6,7 @@ An application where users can add food trucks to a list.  The user then can acc
 
 TECHNOLOGIES USED
 
-JAVA 
+JAVA OOP
 
 LESSONS LEARNED
 
@@ -20,4 +20,4 @@ As far as the actual develpment of the project.  I used some preplanning and dia
 
 He taught me some small things that weren't covered in class such as buffering with a println statement.
 
-
+I feel like I know what code I am supposed to write and I understand why, but I don't really understand the meaning behind the code.  I am going to spend at least 3 hours extra a day outside of class to relearn concepts and try to catch up.  I feel so overwhelmed and I hope I can catch up before I fail out of the cohort. :(
